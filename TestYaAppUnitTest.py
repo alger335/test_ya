@@ -3,7 +3,8 @@ import unittest
 
 token = ''
 
-class TestShelfAppUnitTest(unittest.TestCase):
+
+class TestYaAppUnitTest(unittest.TestCase):
 
     def test_ya_folder(self):
         ya = YaFolder(token)
